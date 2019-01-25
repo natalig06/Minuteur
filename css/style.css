@@ -1,0 +1,86 @@
+.active {
+	color: black;
+}
+
+body {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	user-select: none;
+}
+
+.button-panel, .clock {
+	width: 100%;
+	text-align: center;
+}
+
+.button-panel div {
+	font-size: 1.5em;
+	display: inline-block;
+	padding: 2px 5px;
+	margin: 0 30px;
+}
+
+.clock {
+	font-size: 9.4em;
+}
+
+.header {
+	height: 1.5em;
+	margin: 0px;
+	width: 100%;
+	font-size: 1.1em;
+}
+
+.header a {
+	color: #000099;
+	text-decoration: none;
+}
+
+.header a:hover {
+	color: #0000EE;
+}
+
+.header i {
+	padding: 0 2px;
+	font-size: 1.15em;
+}
+
+.left {
+	float: left;
+	display: inline-block;
+}
+
+.nodisplay {
+	display: none;
+}
+
+.right {
+	float: right;
+	display: inline-block;
+}
+
+.setting {
+	background-color: #EEEEEE;
+	border: 1px solid #999999;
+	color: #999999;
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+	padding: 6px 12px;
+}
+
+.setting:hover {
+	border: 1px solid #009900;
+}
+
+.settings {
+	width: 600px;
+	margin: auto;
+	text-align: center;
+}
+
+.time-setting {
+	width: 40px;
+	display: inline-block;
+}
+
